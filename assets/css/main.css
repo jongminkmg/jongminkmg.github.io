@@ -2292,6 +2292,47 @@
 				width: 100%;
 			}
 
+		/*JK added 'left15' */
+		.image.left15, .image.right15 {
+			max-width: 15%;
+		}
+				.image.left15 img, .image.right15 img {
+				width: 100%;
+			}
+
+		.image.left15 {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right15 {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+		/*JK added 'left25' */
+		.image.left25, .image.right25 {
+			max-width: 25%;
+		}
+				.image.left25 img, .image.right25 img {
+				width: 100%;
+			}
+
+		.image.left25 {
+			float: left;
+			padding: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+
+		.image.right25 {
+			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+
+
 /* List */
 
 	ol {
@@ -2934,7 +2975,7 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
-		background-image: url('../../images/banner.jpg');
+		background-image: url('../../images/Tubule_TEX14_SALL4_FOXC2_re.jpg');
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
