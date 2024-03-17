@@ -1901,8 +1901,13 @@
 	}
 
 		.flex.flex-2 article {
-			width: 47%;
+			width: 23%; /* JJK: originally 47%*/
 		}
+
+			.flex.flex-2 article:last-child { /* This line JJK add */
+				flex-grow: 2; /* This line JJK add */
+				margin-left: 2em;
+			}                 /* This line JJK add */
 
 		.flex.flex-3 article {
 			position: relative;
@@ -1938,7 +1943,6 @@
 				.flex.flex-2 article:last-child {
 					margin-bottom: 0;
 				}
-
 			.flex.flex-3 {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
