@@ -1901,13 +1901,18 @@
 	}
 
 		.flex.flex-2 article {
-			width: 23%; /* JJK: originally 47%*/
+			width: 47%; /* JJK: originally 47%*/
 		}
 
-			.flex.flex-2 article:last-child { /* This line JJK add */
+		.flex.flex-9 article { /* JJK: flex-9, disproportional flex, JJK add*/
+			width: 23%; 
+		}
+
+			.flex.flex-9 article:last-child { /* This line JJK add */
 				flex-grow: 2; /* This line JJK add */
-				margin-left: 2em;
+				margin-left: 2em; /* This line JJK add */
 			}                 /* This line JJK add */
+
 
 		.flex.flex-3 article {
 			position: relative;
@@ -1939,10 +1944,18 @@
 				width: 100%;
 				margin-bottom: 3em;
 			}
-
 				.flex.flex-2 article:last-child {
 					margin-bottom: 0;
 				}
+
+			.flex.flex-9 article {
+				width: 100%;
+				margin-bottom: 3em;
+			}
+				.flex.flex-9 article:last-child {
+					margin-bottom: 0;
+				}
+
 			.flex.flex-3 {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
