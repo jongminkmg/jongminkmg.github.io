@@ -1953,6 +1953,7 @@
 				margin-bottom: 3em;
 			}
 				.flex.flex-9 article:last-child {
+					margin-left: 0;
 					margin-bottom: 0;
 				}
 
